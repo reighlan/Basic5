@@ -12,7 +12,7 @@ session_start();
 			<?php 
 				if(isset($_SESSION['errors']))
 				{
-					aecho $_SESSION['errors'];
+					echo $_SESSION['errors'];
 				}
 			 ?>
 		</h3>
